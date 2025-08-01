@@ -1,0 +1,26 @@
+columna,descripcion
+authors,La columna 'authors' contiene los nombres de los autores de las publicaciones.
+author_full_names,"La columna 'author_full_names' contiene los nombres completos de los autores, incluyendo en algunos casos un número que podría ser un identificador."
+authors_id,La columna 'authors_id' representa identificadores únicos de autores.
+title,La columna 'title' contiene los títulos de artículos o investigaciones.
+year,La columna 'year' representa el año al que pertenecen los datos.
+source_title,La columna 'source_title' representa el título de la fuente de donde provienen los datos.
+volume,La columna 'volume' representa el volumen de algo.
+issue,La columna 'issue' representa un identificador numérico único.
+art_no,art_no
+page_start,page_start
+page_end,page_end
+page_count,La columna 'page_count' representa el número de páginas de un documento o elemento.
+cited_by,cited_by
+doi,doi
+link,link
+abstract,abstract
+author_keywords,author_keywords
+index_keywords,index_keywords
+funding_details,funding_details
+funding_texts,funding_texts
+document_type,document_type
+publication_stage,publication_stage
+open_access,open_access
+source,source
+eid,eid

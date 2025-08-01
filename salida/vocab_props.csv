@@ -1,0 +1,310 @@
+uri,label,desc
+http://xmlns.com/foaf/0.1/Agent,agent,"An agent (eg. person, group, software or physical artifact)."
+http://xmlns.com/foaf/0.1/Document,document,A document.
+http://xmlns.com/foaf/0.1/Group,group,A class of Agents.
+http://xmlns.com/foaf/0.1/Image,image,An image.
+http://xmlns.com/foaf/0.1/LabelProperty,label property,A foaf:LabelProperty is any RDF property with texual values that serve as labels.
+http://xmlns.com/foaf/0.1/OnlineAccount,online account,An online account.
+http://xmlns.com/foaf/0.1/OnlineChatAccount,online chat account,An online chat account.
+http://xmlns.com/foaf/0.1/OnlineEcommerceAccount,online e-commerce account,An online e-commerce account.
+http://xmlns.com/foaf/0.1/OnlineGamingAccount,online gaming account,An online gaming account.
+http://xmlns.com/foaf/0.1/Organization,organization,An organization.
+http://xmlns.com/foaf/0.1/Person,person,A person.
+http://xmlns.com/foaf/0.1/PersonalProfileDocument,personalprofiledocument,A personal profile RDF document.
+http://xmlns.com/foaf/0.1/Project,project,A project (a collective endeavour of some kind).
+http://xmlns.com/foaf/0.1/account,account,Indicates an account held by this agent.
+http://xmlns.com/foaf/0.1/holdsAccount,account,Indicates an account held by this agent.
+http://xmlns.com/foaf/0.1/accountName,account name,Indicates the name (identifier) associated with this online account.
+http://xmlns.com/foaf/0.1/accountServiceHomepage,account service homepage,Indicates a homepage of the service provide for this online account.
+http://xmlns.com/foaf/0.1/age,age,The age in years of some agent.
+http://xmlns.com/foaf/0.1/aimChatID,aim chat id,An AIM chat ID
+http://xmlns.com/foaf/0.1/based_near,based near,"A location that something is based near, for some broadly human notion of near."
+http://xmlns.com/foaf/0.1/birthday,birthday,"The birthday of this Agent, represented in mm-dd string form, eg. '12-31'."
+http://xmlns.com/foaf/0.1/currentProject,current project,A current project this person works on.
+http://xmlns.com/foaf/0.1/depiction,depiction,A depiction of some thing.
+http://xmlns.com/foaf/0.1/depicts,depicts,A thing depicted in this representation.
+http://xmlns.com/foaf/0.1/dnaChecksum,dna checksum,A checksum for the DNA of some thing. Joke.
+http://xmlns.com/foaf/0.1/familyName,familyname,The family name of some person.
+http://xmlns.com/foaf/0.1/family_name,family_name,The family name of some person.
+http://xmlns.com/foaf/0.1/firstName,firstname,The first name of a person.
+http://xmlns.com/foaf/0.1/focus,focus,The underlying or 'focal' entity associated with some SKOS-described concept.
+http://xmlns.com/foaf/0.1/fundedBy,funded by,An organization funding a project or person.
+http://xmlns.com/foaf/0.1/geekcode,geekcode,"A textual geekcode for this person, see http://www.geekcode.com/geek.html"
+http://xmlns.com/foaf/0.1/gender,gender,The gender of this Agent (typically but not necessarily 'male' or 'female').
+http://xmlns.com/foaf/0.1/givenName,given name,The given name of some person.
+http://xmlns.com/foaf/0.1/givenname,given name,The given name of some person.
+http://xmlns.com/foaf/0.1/homepage,homepage,A homepage for some thing.
+http://xmlns.com/foaf/0.1/icqChatID,icq chat id,An ICQ chat ID
+http://xmlns.com/foaf/0.1/img,image,"An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one's photo on a homepage)."
+http://xmlns.com/foaf/0.1/interest,interest,A page about a topic of interest to this person.
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf,is primary topic of,A document that this thing is the primary topic of.
+http://xmlns.com/foaf/0.1/jabberID,jabber id,A jabber ID for something.
+http://xmlns.com/foaf/0.1/knows,knows,A person known by this person (indicating some level of reciprocated interaction between the parties).
+http://xmlns.com/foaf/0.1/lastName,lastname,The last name of a person.
+http://xmlns.com/foaf/0.1/logo,logo,A logo representing some thing.
+http://xmlns.com/foaf/0.1/made,made,Something that was made by this agent.
+http://xmlns.com/foaf/0.1/maker,maker,An agent that made this thing.
+http://xmlns.com/foaf/0.1/mbox,personal mailbox,"A personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that there is (across time and change) at most one individual that ever has any particular value for foaf:mbox."
+http://xmlns.com/foaf/0.1/mbox_sha1sum,sha1sum of a personal mailbox uri name,"The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the first owner of the mailbox."
+http://xmlns.com/foaf/0.1/member,member,Indicates a member of a Group
+http://xmlns.com/foaf/0.1/membershipClass,membershipclass,Indicates the class of individuals that are a member of a Group
+http://xmlns.com/foaf/0.1/msnChatID,msn chat id,An MSN chat ID
+http://xmlns.com/foaf/0.1/myersBriggs,myersbriggs,A Myers Briggs (MBTI) personality classification.
+http://xmlns.com/foaf/0.1/name,name,A name for some thing.
+http://xmlns.com/foaf/0.1/nick,nickname,"A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames)."
+http://xmlns.com/foaf/0.1/openid,openid,An OpenID for an Agent.
+http://xmlns.com/foaf/0.1/page,page,A page or document about this thing.
+http://xmlns.com/foaf/0.1/pastProject,past project,A project this person has previously worked on.
+http://xmlns.com/foaf/0.1/phone,phone,"A phone, specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel)."
+http://xmlns.com/foaf/0.1/plan,plan,"A .plan comment, in the tradition of finger and '.plan' files."
+http://xmlns.com/foaf/0.1/primaryTopic,primary topic,The primary topic of some page or document.
+http://xmlns.com/foaf/0.1/publications,publications,A link to the publications of this person.
+http://xmlns.com/foaf/0.1/schoolHomepage,schoolhomepage,A homepage of a school attended by the person.
+http://xmlns.com/foaf/0.1/sha1,sha1sum (hex),"A sha1sum hash, in hex."
+http://xmlns.com/foaf/0.1/skypeID,skype id,A Skype ID
+http://xmlns.com/foaf/0.1/status,status,A string expressing what the user is happy for the general public (normally) to know about their current activity.
+http://xmlns.com/foaf/0.1/surname,surname,The surname of some person.
+http://xmlns.com/foaf/0.1/theme,theme,A theme.
+http://xmlns.com/foaf/0.1/thumbnail,thumbnail,A derived thumbnail image.
+http://xmlns.com/foaf/0.1/tipjar,tipjar,"A tipjar document for this agent, describing means for payment and reward."
+http://xmlns.com/foaf/0.1/title,title,"Title (Mr, Mrs, Ms, Dr. etc)"
+http://xmlns.com/foaf/0.1/topic,topic,A topic of some page or document.
+http://xmlns.com/foaf/0.1/topic_interest,topic_interest,A thing of interest to this person.
+http://xmlns.com/foaf/0.1/weblog,weblog,"A weblog of some thing (whether person, group, company etc.)."
+http://xmlns.com/foaf/0.1/workInfoHomepage,work info homepage,A work info homepage of some person; a page about their work for some organization.
+http://xmlns.com/foaf/0.1/workplaceHomepage,workplace homepage,A workplace homepage of some person; the homepage of an organization they work for.
+http://xmlns.com/foaf/0.1/yahooChatID,yahoo chat id,A Yahoo chat ID
+http://purl.org/ontology/bibo/affirmedBy,affirmedby,A legal decision that affirms a ruling.
+http://purl.org/ontology/bibo/annotates,annotates,Critical or explanatory note for a Document.
+http://purl.org/ontology/bibo/authorList,list of authors,"An ordered list of authors. Normally, this list is seen as a priority list that order authors by importance."
+http://purl.org/ontology/bibo/citedBy,cited by,"Relates a document to another document that cites the
+first document."
+http://purl.org/ontology/bibo/cites,cites,"Relates a document to another document that is cited
+by the first document as reference, comment, review, quotation or for
+another purpose."
+http://purl.org/ontology/bibo/contributorList,list of contributors,"An ordered list of contributors. Normally, this list is seen as a priority list that order contributors by importance."
+http://purl.org/ontology/bibo/court,court,"A court associated with a legal document; for example, that which issues a decision."
+http://purl.org/ontology/bibo/degree,degree,The thesis degree.
+http://purl.org/ontology/bibo/director,director,A Film director.
+http://purl.org/ontology/bibo/distributor,distributor,Distributor of a document or a collection of documents.
+http://purl.org/ontology/bibo/editor,editor,"A person having managerial and sometimes policy-making responsibility for the editorial part of a publishing firm or of a newspaper, magazine, or other publication."
+http://purl.org/ontology/bibo/editorList,list of editors,"An ordered list of editors. Normally, this list is seen as a priority list that order editors by importance."
+http://purl.org/ontology/bibo/interviewee,interviewee,An agent that is interviewed by another agent.
+http://purl.org/ontology/bibo/interviewer,interviewer,An agent that interview another agent.
+http://purl.org/ontology/bibo/issuer,issuer,"An entity responsible for issuing often informally published documents such as press releases, reports, etc."
+http://purl.org/ontology/bibo/organizer,organizer,"The organizer of an event; includes conference organizers, but also government agencies or other bodies that are responsible for conducting hearings."
+http://purl.org/ontology/bibo/owner,owner,Owner of a document or a collection of documents.
+http://purl.org/ontology/bibo/presentedAt,presented at,"Relates a document to an event; for example, a paper to a conference."
+http://purl.org/ontology/bibo/presents,presents,"Relates an event to associated documents; for example, conference to a paper."
+http://purl.org/ontology/bibo/producer,producer,Producer of a document or a collection of documents.
+http://purl.org/ontology/bibo/recipient,recipient,An agent that receives a communication document.
+http://purl.org/ontology/bibo/reproducedIn,reproducedin,The resource in which another resource is reproduced.
+http://purl.org/ontology/bibo/reversedBy,reversedby,A legal decision that reverses a ruling.
+http://purl.org/ontology/bibo/reviewOf,review of,"Relates a review document to a reviewed thing (resource, item, etc.)."
+http://purl.org/ontology/bibo/status,status,The publication status of (typically academic) content.
+http://purl.org/ontology/bibo/subsequentLegalDecision,subsequentlegaldecision,"A legal decision on appeal that takes action on a case (affirming it, reversing it, etc.)."
+http://purl.org/ontology/bibo/transcriptOf,transcript of,Relates a document to some transcribed original.
+http://purl.org/ontology/bibo/translationOf,translation of,Relates a translated document to the original document.
+http://purl.org/ontology/bibo/translator,translator,A person who translates written document from one language to another.
+http://purl.org/ontology/bibo/abstract,abstract,A summary of the resource.
+http://purl.org/ontology/bibo/argued,date argued,The date on which a legal case is argued before a court. Date is of format xsd:date
+http://purl.org/ontology/bibo/chapter,chapter,An chapter number
+http://purl.org/ontology/bibo/content,content,This property is for a plain-text rendering of the content of a Document. While the plain-text content of an entire document could be described by this property.
+http://purl.org/ontology/bibo/edition,edition,The name defining a special edition of a document. Normally its a literal value composed of a version number and words.
+http://purl.org/ontology/bibo/issue,issue,An issue number
+http://purl.org/ontology/bibo/locator,locator,A description (often numeric) that locates an item within a containing document or collection.
+http://purl.org/ontology/bibo/numPages,number of pages,The number of pages contained in a document
+http://purl.org/ontology/bibo/numVolumes,number of volumes,"The number of volumes contained in a collection of documents (usually a series, periodical, etc.)."
+http://purl.org/ontology/bibo/number,number,A generic item or document number. Not to be confused with issue number.
+http://purl.org/ontology/bibo/pageEnd,page end,Ending page number within a continuous page range.
+http://purl.org/ontology/bibo/pageStart,page start,Starting page number within a continuous page range.
+http://purl.org/ontology/bibo/pages,pages,"A string of non-contiguous page spans that locate a Document within a Collection. Example: 23-25, 34, 54-56. For continuous page ranges, use the pageStart and pageEnd properties."
+http://purl.org/ontology/bibo/prefixName,prefix name,The prefix of a name
+http://purl.org/ontology/bibo/section,section,A section number
+http://purl.org/ontology/bibo/shortTitle,short title,The abbreviation of a title.
+http://purl.org/ontology/bibo/suffixName,suffix name,The suffix of a name
+http://purl.org/ontology/bibo/uri,uri,Universal Resource Identifier of a document
+http://purl.org/ontology/bibo/volume,volume,A volume number
+http://purl.org/ontology/bibo/AcademicArticle,academic article,"A scholarly academic article, typically published in a journal."
+http://purl.org/ontology/bibo/Article,article,"A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine."
+http://purl.org/ontology/bibo/AudioDocument,audio document,An audio document; aka record.
+http://purl.org/ontology/bibo/AudioVisualDocument,audio-visual document,"An audio-visual document; film, video, and so forth."
+http://purl.org/ontology/bibo/Bill,bill,Draft legislation presented for discussion to a legal body.
+http://purl.org/ontology/bibo/Book,book,"A written or printed work of fiction or nonfiction, usually on sheets of paper fastened or bound together within covers."
+http://purl.org/ontology/bibo/BookSection,book section,A section of a book.
+http://purl.org/ontology/bibo/Brief,brief,A written argument submitted to a court.
+http://purl.org/ontology/bibo/Chapter,chapter,A chapter of a book.
+http://purl.org/ontology/bibo/Code,code,A collection of statutes.
+http://purl.org/ontology/bibo/CollectedDocument,collected document,A document that simultaneously contains other documents.
+http://purl.org/ontology/bibo/Collection,collection,A collection of Documents or Collections
+http://purl.org/ontology/bibo/Conference,conference,A meeting for consultation or discussion.
+http://purl.org/ontology/bibo/CourtReporter,court reporter,A collection of legal cases.
+http://purl.org/ontology/bibo/Document,document,"A document (noun) is a bounded physical representation of body of information designed with the capacity (and usually intent) to communicate. A document may manifest symbolic, diagrammatic or sensory-representational information."
+http://purl.org/ontology/bibo/DocumentPart,document part,a distinct part of a larger document or collected document.
+http://purl.org/ontology/bibo/DocumentStatus,document status,The status of the publication of a document.
+http://purl.org/ontology/bibo/EditedBook,edited book,An edited book.
+http://purl.org/ontology/bibo/Email,email,A written communication addressed to a person or organization and transmitted electronically.
+http://purl.org/ontology/bibo/Excerpt,excerpt,A passage selected from a larger work.
+http://purl.org/ontology/bibo/Film,film,aka movie.
+http://purl.org/ontology/bibo/Hearing,hearing,"An instance or a session in which testimony and arguments are presented, esp. before an official, as a judge in a lawsuit."
+http://purl.org/ontology/bibo/Image,image,A document that presents visual or diagrammatic information.
+http://purl.org/ontology/bibo/Interview,interview,A formalized discussion between two or more people.
+http://purl.org/ontology/bibo/Issue,issue,"something that is printed or published and distributed, esp. a given number of a periodical"
+http://purl.org/ontology/bibo/Journal,journal,A periodical of scholarly journal Articles.
+http://purl.org/ontology/bibo/LegalCaseDocument,legal case document,A document accompanying a legal case.
+http://purl.org/ontology/bibo/LegalDecision,decision,A document containing an authoritative determination (as a decree or judgment) made after consideration of facts or law.
+http://purl.org/ontology/bibo/LegalDocument,legal document,"A legal document; for example, a court decision, a brief, and so forth."
+http://purl.org/ontology/bibo/Legislation,legislation,A legal document proposing or enacting a law or a group of laws.
+http://purl.org/ontology/bibo/Letter,letter,A written or printed communication addressed to a person or organization and usually transmitted by mail.
+http://purl.org/ontology/bibo/Magazine,magazine,"A periodical of magazine Articles. A magazine is a publication that is issued periodically, usually bound in a paper cover, and typically contains essays, stories, poems, etc., by many writers, and often photographs and drawings, frequently specializing in a particular subject or area, as hobbies, news, or sports."
+http://purl.org/ontology/bibo/Manual,manual,"A small reference book, especially one giving instructions."
+http://purl.org/ontology/bibo/Manuscript,manuscript,"An unpublished Document, which may also be submitted to a publisher for publication."
+http://purl.org/ontology/bibo/Map,map,A graphical depiction of geographic features.
+http://purl.org/ontology/bibo/MultiVolumeBook,multivolume book,"A loose, thematic, collection of Documents, often Books."
+http://purl.org/ontology/bibo/Series,series,"A loose, thematic, collection of Documents, often Books."
+http://purl.org/ontology/bibo/Newspaper,newspaper,"A periodical of documents, usually issued daily or weekly, containing current news, editorials, feature articles, and usually advertising."
+http://purl.org/ontology/bibo/Note,note,Notes or annotations about a resource.
+http://purl.org/ontology/bibo/Patent,patent,"A document describing the exclusive right granted by a government to an inventor to manufacture, use, or sell an invention for a certain number of years."
+http://purl.org/ontology/bibo/Performance,performance,A public performance.
+http://purl.org/ontology/bibo/Periodical,periodical,A group of related documents issued at regular intervals.
+http://purl.org/ontology/bibo/PersonalCommunication,personal communication,A communication between an agent and one or more specific recipients.
+http://purl.org/ontology/bibo/PersonalCommunicationDocument,personal communication document,A personal communication manifested in some document.
+http://purl.org/ontology/bibo/Proceedings,proceedings,"A compilation of documents published from an event, such as a conference."
+http://purl.org/ontology/bibo/Quote,quote,An excerpted collection of words.
+http://purl.org/ontology/bibo/ReferenceSource,reference source,"A document that presents authoritative reference information, such as a dictionary or encylopedia ."
+http://purl.org/ontology/bibo/Report,report,"A document describing an account or statement describing in detail an event, situation, or the like, usually as the result of observation, inquiry, etc.."
+http://purl.org/ontology/bibo/Slide,slide,A slide in a slideshow
+http://purl.org/ontology/bibo/Slideshow,slideshow,"A presentation of a series of slides, usually presented in front of an audience with written text and images."
+http://purl.org/ontology/bibo/Specification,specification,A document describing a specification.
+http://purl.org/ontology/bibo/Standard,standard,A document describing a standard: a specification organized through a standards body.
+http://purl.org/ontology/bibo/Statute,statute,A bill enacted into law.
+http://purl.org/ontology/bibo/Thesis,thesis,A document created to summarize research findings associated with the completion of an academic degree.
+http://purl.org/ontology/bibo/ThesisDegree,thesis degree,The academic degree of a Thesis
+http://purl.org/ontology/bibo/Webpage,webpage,"A web page is an online document available (at least initially) on the world wide web. A web page is written first and foremost to appear on the web, as distinct from other online resources such as books, manuscripts or audio documents which use the web primarily as a distribution mechanism alongside other more traditional methods such as print."
+http://purl.org/ontology/bibo/Website,website,A group of Webpages accessible on the Web.
+http://purl.org/ontology/bibo/Workshop,workshop,"A seminar, discussion group, or the like, that emphasizes zxchange of ideas and the demonstration and application of techniques, skills, etc."
+http://purl.org/ontology/bibo/degrees/ma,m.a.,masters degree in arts
+http://purl.org/ontology/bibo/degrees/ms,m.s.,masters degree in science
+http://purl.org/ontology/bibo/degrees/phd,phd degree,PhD degree
+http://purl.org/ontology/bibo/status/accepted,accepted,Accepted for publication after peer reviewing.
+http://purl.org/ontology/bibo/status/draft,draft,Document drafted
+http://purl.org/ontology/bibo/status/forthcoming,forthcoming,Document to be published
+http://purl.org/ontology/bibo/status/legal,legal,Legal document
+http://purl.org/ontology/bibo/status/nonPeerReviewed,non peer reviewed,A document that is not peer reviewed
+http://purl.org/ontology/bibo/status/peerReviewed,peer reviewed,The process by which articles are chosen to be included in a refereed journal. An editorial board consisting of experts in the same field as the author review the article and decide if it is authoritative enough for publication.
+http://purl.org/ontology/bibo/status/published,published,Published document
+http://purl.org/ontology/bibo/status/rejected,rejected,Rejected for publication after peer reviewing.
+http://purl.org/ontology/bibo/status/unpublished,unpublished,Unpublished document
+http://purl.org/dc/terms/Agent,agent,A resource that acts or has the power to act.
+http://purl.org/dc/terms/AgentClass,agent class,A group of agents.
+http://purl.org/dc/terms/BibliographicResource,bibliographic resource,"A book, article, or other documentary resource."
+http://purl.org/dc/terms/Box,dcmi box,The set of regions in space defined by their geographic coordinates according to the DCMI Box Encoding Scheme.
+http://purl.org/dc/terms/DCMIType,dcmi type vocabulary,"The set of classes specified by the DCMI Type Vocabulary, used to categorize the nature or genre of the resource."
+http://purl.org/dc/terms/DDC,ddc,The set of conceptual resources specified by the Dewey Decimal Classification.
+http://purl.org/dc/terms/FileFormat,file format,A digital resource format.
+http://purl.org/dc/terms/Frequency,frequency,A rate at which something recurs.
+http://purl.org/dc/terms/IMT,imt,The set of media types specified by the Internet Assigned Numbers Authority.
+http://purl.org/dc/terms/ISO3166,iso 3166,The set of codes listed in ISO 3166-1 for the representation of names of countries.
+http://purl.org/dc/terms/ISO639-2,iso 639-2,The three-letter alphabetic codes listed in ISO639-2 for the representation of names of languages.
+http://purl.org/dc/terms/ISO639-3,iso 639-3,The set of three-letter codes listed in ISO 639-3 for the representation of names of languages.
+http://purl.org/dc/terms/Jurisdiction,jurisdiction,"The extent or range of judicial, law enforcement, or other authority."
+http://purl.org/dc/terms/LCC,lcc,The set of conceptual resources specified by the Library of Congress Classification.
+http://purl.org/dc/terms/LCSH,lcsh,The set of labeled concepts specified by the Library of Congress Subject Headings.
+http://purl.org/dc/terms/LicenseDocument,license document,A legal document giving official permission to do something with a Resource.
+http://purl.org/dc/terms/LinguisticSystem,linguistic system,"A system of signs, symbols, sounds, gestures, or rules used in communication."
+http://purl.org/dc/terms/Location,location,A spatial region or named place.
+http://purl.org/dc/terms/LocationPeriodOrJurisdiction,"location, period, or jurisdiction","A location, period of time, or jurisdiction."
+http://purl.org/dc/terms/MESH,mesh,The set of labeled concepts specified by the Medical Subject Headings.
+http://purl.org/dc/terms/MediaType,media type,A file format or physical medium.
+http://purl.org/dc/terms/MediaTypeOrExtent,media type or extent,A media type or extent.
+http://purl.org/dc/terms/MethodOfAccrual,method of accrual,A method by which resources are added to a collection.
+http://purl.org/dc/terms/MethodOfInstruction,method of instruction,"A process that is used to engender knowledge, attitudes, and skills."
+http://purl.org/dc/terms/NLM,nlm,The set of conceptual resources specified by the National Library of Medicine Classification.
+http://purl.org/dc/terms/Period,dcmi period,The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme.
+http://purl.org/dc/terms/PeriodOfTime,period of time,An interval of time that is named or defined by its start and end dates.
+http://purl.org/dc/terms/PhysicalMedium,physical medium,A physical material or carrier.
+http://purl.org/dc/terms/PhysicalResource,physical resource,A material thing.
+http://purl.org/dc/terms/Point,dcmi point,The set of points in space defined by their geographic coordinates according to the DCMI Point Encoding Scheme.
+http://purl.org/dc/terms/Policy,policy,"A plan or course of action by an authority, intended to influence and determine decisions, actions, and other matters."
+http://purl.org/dc/terms/ProvenanceStatement,provenance statement,"A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."
+http://purl.org/dc/terms/RFC1766,rfc 1766,"The set of tags, constructed according to RFC 1766, for the identification of languages."
+http://purl.org/dc/terms/RFC3066,rfc 3066,The set of tags constructed according to RFC 3066 for the identification of languages.
+http://purl.org/dc/terms/RFC4646,rfc 4646,The set of tags constructed according to RFC 4646 for the identification of languages.
+http://purl.org/dc/terms/RFC5646,rfc 5646,The set of tags constructed according to RFC 5646 for the identification of languages.
+http://purl.org/dc/terms/RightsStatement,rights statement,"A statement about the intellectual property rights (IPR) held in or over a Resource, a legal document giving official permission to do something with a resource, or a statement about access rights."
+http://purl.org/dc/terms/SizeOrDuration,size or duration,"A dimension or extent, or a time taken to play or execute."
+http://purl.org/dc/terms/Standard,standard,A basis for comparison; a reference point against which other things can be evaluated.
+http://purl.org/dc/terms/TGN,tgn,The set of places specified by the Getty Thesaurus of Geographic Names.
+http://purl.org/dc/terms/UDC,udc,The set of conceptual resources specified by the Universal Decimal Classification.
+http://purl.org/dc/terms/URI,uri,The set of identifiers constructed according to the generic syntax for Uniform Resource Identifiers as specified by the Internet Engineering Task Force.
+http://purl.org/dc/terms/W3CDTF,w3c-dtf,The set of dates and times constructed according to the W3C Date and Time Formats Specification.
+http://purl.org/dc/terms/abstract,abstract,A summary of the resource.
+http://purl.org/dc/terms/accessRights,access rights,Information about who can access the resource or an indication of its security status.
+http://purl.org/dc/terms/accrualMethod,accrual method,The method by which items are added to a collection.
+http://purl.org/dc/terms/accrualPeriodicity,accrual periodicity,The frequency with which items are added to a collection.
+http://purl.org/dc/terms/accrualPolicy,accrual policy,The policy governing the addition of items to a collection.
+http://purl.org/dc/terms/alternative,alternative title,An alternative name for the resource.
+http://purl.org/dc/terms/audience,audience,A class of entity for whom the resource is intended or useful.
+http://purl.org/dc/terms/available,date available,Date (often a range) that the resource became or will become available.
+http://purl.org/dc/terms/bibliographicCitation,bibliographic citation,A bibliographic reference for the resource.
+http://purl.org/dc/terms/conformsTo,conforms to,An established standard to which the described resource conforms.
+http://purl.org/dc/terms/contributor,contributor,An entity responsible for making contributions to the resource.
+http://purl.org/dc/terms/coverage,coverage,"The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant."
+http://purl.org/dc/terms/created,date created,Date of creation of the resource.
+http://purl.org/dc/terms/creator,creator,An entity primarily responsible for making the resource.
+http://purl.org/dc/terms/date,date,A point or period of time associated with an event in the lifecycle of the resource.
+http://purl.org/dc/terms/dateAccepted,date accepted,Date of acceptance of the resource.
+http://purl.org/dc/terms/dateCopyrighted,date copyrighted,Date of copyright.
+http://purl.org/dc/terms/dateSubmitted,date submitted,Date of submission of the resource.
+http://purl.org/dc/terms/description,description,An account of the resource.
+http://purl.org/dc/terms/educationLevel,audience education level,"A class of entity, defined in terms of progression through an educational or training context, for which the described resource is intended."
+http://purl.org/dc/terms/extent,extent,The size or duration of the resource.
+http://purl.org/dc/terms/format,format,"The file format, physical medium, or dimensions of the resource."
+http://purl.org/dc/terms/hasFormat,has format,"A related resource that is substantially the same as the pre-existing described resource, but in another format."
+http://purl.org/dc/terms/hasPart,has part,A related resource that is included either physically or logically in the described resource.
+http://purl.org/dc/terms/hasVersion,has version,"A related resource that is a version, edition, or adaptation of the described resource."
+http://purl.org/dc/terms/identifier,identifier,An unambiguous reference to the resource within a given context.
+http://purl.org/dc/terms/instructionalMethod,instructional method,"A process, used to engender knowledge, attitudes and skills, that the described resource is designed to support."
+http://purl.org/dc/terms/isFormatOf,is format of,"A related resource that is substantially the same as the described resource, but in another format."
+http://purl.org/dc/terms/isPartOf,is part of,A related resource in which the described resource is physically or logically included.
+http://purl.org/dc/terms/isReferencedBy,is referenced by,"A related resource that references, cites, or otherwise points to the described resource."
+http://purl.org/dc/terms/isReplacedBy,is replaced by,"A related resource that supplants, displaces, or supersedes the described resource."
+http://purl.org/dc/terms/isRequiredBy,is required by,"A related resource that requires the described resource to support its function, delivery, or coherence."
+http://purl.org/dc/terms/isVersionOf,is version of,"A related resource of which the described resource is a version, edition, or adaptation."
+http://purl.org/dc/terms/issued,date issued,"Date of formal issuance (e.g., publication) of the resource."
+http://purl.org/dc/terms/language,language,A language of the resource.
+http://purl.org/dc/terms/license,license,A legal document giving official permission to do something with the resource.
+http://purl.org/dc/terms/mediator,mediator,An entity that mediates access to the resource and for whom the resource is intended or useful.
+http://purl.org/dc/terms/medium,medium,The material or physical carrier of the resource.
+http://purl.org/dc/terms/modified,date modified,Date on which the resource was changed.
+http://purl.org/dc/terms/provenance,provenance,"A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation."
+http://purl.org/dc/terms/publisher,publisher,An entity responsible for making the resource available.
+http://purl.org/dc/terms/references,references,"A related resource that is referenced, cited, or otherwise pointed to by the described resource."
+http://purl.org/dc/terms/relation,relation,A related resource.
+http://purl.org/dc/terms/replaces,replaces,"A related resource that is supplanted, displaced, or superseded by the described resource."
+http://purl.org/dc/terms/requires,requires,"A related resource that is required by the described resource to support its function, delivery, or coherence."
+http://purl.org/dc/terms/rights,rights,Information about rights held in and over the resource.
+http://purl.org/dc/terms/rightsHolder,rights holder,A person or organization owning or managing rights over the resource.
+http://purl.org/dc/terms/source,source,A related resource from which the described resource is derived.
+http://purl.org/dc/terms/spatial,spatial coverage,Spatial characteristics of the resource.
+http://purl.org/dc/terms/subject,subject,The topic of the resource.
+http://purl.org/dc/terms/tableOfContents,table of contents,A list of subunits of the resource.
+http://purl.org/dc/terms/temporal,temporal coverage,Temporal characteristics of the resource.
+http://purl.org/dc/terms/title,title,A name given to the resource.
+http://purl.org/dc/terms/type,type,The nature or genre of the resource.
+http://purl.org/dc/terms/valid,date valid,Date (often a range) of validity of a resource.
+http://www.w3.org/2004/02/skos/core#prefLabel,preferred label,"A resource has no more than one value of skos:prefLabel per language tag, and no more than one value of skos:prefLabel without language tag."
+http://www.w3.org/2004/02/skos/core#prefLabel,preferred label,The range of skos:prefLabel is the class of RDF plain literals.
+http://www.w3.org/2004/02/skos/core#prefLabel,preferred label,"skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
+      disjoint properties."
+http://www.w3.org/2004/02/skos/core#altLabel,alternative label,The range of skos:altLabel is the class of RDF plain literals.
+http://www.w3.org/2004/02/skos/core#altLabel,alternative label,"skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties."
+http://www.w3.org/2004/02/skos/core#hiddenLabel,hidden label,"skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties."
+http://www.w3.org/2004/02/skos/core#hiddenLabel,hidden label,The range of skos:hiddenLabel is the class of RDF plain literals.
+http://www.w3.org/2004/02/skos/core#broader,has broader,Broader concepts are typically rendered as parents in a concept hierarchy (tree).
+http://www.w3.org/2004/02/skos/core#narrower,has narrower,Narrower concepts are typically rendered as children in a concept hierarchy (tree).
+http://www.w3.org/2004/02/skos/core#related,has related,skos:related is disjoint with skos:broaderTransitive
+http://www.w3.org/2004/02/skos/core#memberList,has member list,"For any resource, every item in the list given as the value of the
+      skos:memberList property is also a value of the skos:member property."
+http://www.w3.org/2004/02/skos/core#mappingRelation,is in mapping relation with,"These concept mapping relations mirror semantic relations, and the data model defined below is similar (with the exception of skos:exactMatch) to the data model defined for semantic relations. A distinct vocabulary is provided for concept mapping relations, to provide a convenient way to differentiate links within a concept scheme from links between concept schemes. However, this pattern of usage is not a formal requirement of the SKOS data model, and relies on informal definitions of best practice."
+http://www.w3.org/2004/02/skos/core#exactMatch,has exact match,skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch.

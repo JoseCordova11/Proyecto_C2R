@@ -1,0 +1,26 @@
+Columna,Predicado (URI)
+authors,http://purl.org/ontology/bibo/authorList
+author_full_names,http://xmlns.com/foaf/0.1/Person
+authors_id,http://purl.org/ontology/bibo/authorList
+title,http://purl.org/dc/terms/title
+year,http://purl.org/dc/terms/date
+source_title,http://purl.org/dc/terms/title
+volume,http://purl.org/ontology/bibo/volume
+issue,http://purl.org/ontology/bibo/issue
+art_no,http://scopus11/art_no
+page_start,http://scopus11/page_start
+page_end,http://scopus11/page_end
+page_count,http://scopus11/page_count
+cited_by,http://scopus11/cited_by
+doi,http://scopus11/doi
+link,http://scopus11/link
+abstract,http://scopus11/abstract
+author_keywords,http://scopus11/author_keywords
+index_keywords,http://scopus11/index_keywords
+funding_details,http://scopus11/funding_details
+funding_texts,http://scopus11/funding_texts
+document_type,http://scopus11/document_type
+publication_stage,http://scopus11/publication_stage
+open_access,http://scopus11/open_access
+source,http://scopus11/source
+eid,http://scopus11/eid
